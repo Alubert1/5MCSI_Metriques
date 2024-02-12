@@ -36,7 +36,7 @@ def monhistogramme():
     return render_template("histogramme.html")
 
 @app.route("/commits/")
-def monhistogramme():
+def commits():
     return render_template("commit.html")
   
 if __name__ == "__main__":
