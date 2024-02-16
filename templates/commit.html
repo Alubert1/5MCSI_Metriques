@@ -7,7 +7,7 @@
 
       function drawChart() {
         var data = google.visualization.arrayToDataTable([
-          ['Nombre de commits', 'Heure'],
+          ['Nombre de commits', 'minute'],
           [ 8,      12],
           [ 4,      5.5],
           [ 11,     14],
@@ -18,7 +18,7 @@
 
         var options = {
           title: 'Nombre de commits par minute',
-          hAxis: {title: 'heure', minValue: 14, maxValue: 19},
+          hAxis: {title: 'minute', minValue: 14, maxValue: 19},
           vAxis: {title: 'Nombre de commits', minValue: 0, maxValue: 3},
           legend: 'none'
         };
